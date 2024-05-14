@@ -6,12 +6,14 @@ export default function Home() {
       
       <Navbar />
 
-      <div className="flex flex-col mt-16 justify-center items-center">
-        <h3 className="font-header text-4xl italic text-center">
-          Swirls of<br/>the Stream
+      <div className="flex flex-col mt-24 justify-center items-center">
+        <h3 className="font-header text-5xl font-medium text-center">
+          <span className="inline-block italic">Swirls</span> of the <span className="ionline-block italic">Stream</span>
         </h3>
       </div>
 
+      <hr className="mt-24"/>
+      
       <div className="grid grid-rows-3 grid-cols-3">
 
       </div>
