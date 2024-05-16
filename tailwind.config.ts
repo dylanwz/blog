@@ -9,8 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'header': ['Courier New'],
-        'body': ['ui-sans-serif'],
+        'header': ['Archivo'],
+        'body': ['Roboto', 'sans-serif'],
+        'button': ['Roboto', 'sans-serif'],
       }
     },
   },
