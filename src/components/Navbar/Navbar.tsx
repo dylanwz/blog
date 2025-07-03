@@ -18,17 +18,14 @@ export default function Navbar() {
 
       {/* Links */}
       <div className="flex flex-row items-center font-button text-md gap-6">
-        <Link href="/" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
-          Posts
+        <Link href="/wall" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
+          Wall
         </Link>
-        <Link href="/" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
-          Collections
-        </Link>
-        <Link href="/" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
+        <Link href="/photos" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
           Film
         </Link>
-        <Link href="/" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
-          About
+        <Link href="/about" className="relative after:absolute after:top-full after:left-0 after:w-full after:h-px after:bg-black after:scale-x-0 after:origin-right after:transition hover:after:scale-x-100 hover:after:origin-left">
+          About Me
         </Link>
       </div>
 

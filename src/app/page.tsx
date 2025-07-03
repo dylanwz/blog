@@ -13,7 +13,7 @@ export default function Home() {
     <div className="mt-12">
       
       <h1 className="text-5xl tracking-tighter font-header font-extrabold">Latest Posts</h1>
-      <div className="grid grid-rows-3 grid-cols-3 gap-4 mt-4">
+      <div className="grid grid-rows-3 grid-cols-3 gap-6 mt-4">
         {posts.slice(0, 6).map((p, idx) => (
           <Link
             key={idx}
